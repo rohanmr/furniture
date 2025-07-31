@@ -11,22 +11,23 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <section>
+    <section id="home">
         <nav>
             <div>
                 <h2>EDUCUT</h2>
             </div>
             <div>
                 <ul class="linklist">
-                    <li class="link_item"><a href="">HOME</a></li>
-                    <li class="link_item"><a href="">SHOP</a></li>
-                    <li class="link_item"><a href="">FURNITURE</a></li>
-                    <li class="link_item"><a href="">PRODUCT</a></li>
-                    <li class="link_item"><a href="">CONTACT US</a></li>
+                    <li class="link_item"><a href="#home">HOME</a></li>
+                    <li class="link_item"><a href="#ferniture">FURNITURE</a></li>
+                    <li class="link_item"><a href="#blog">BLOG</a></li>
+                    <li class="link_item"><a href="#about">ABOUT US</a></li>
+                    <li class="link_item"><a href="#contact">CONTACT US</a></li>
 
                 </ul>
             </div>
@@ -38,21 +39,21 @@
         </nav>
     </section>
     <section class="hero">
-        <div class="hero-content">
+        <div class="hero-content" data-aos="zoom-in-up">
             <h1>For All Your<br><span>Furniture Needs</span></h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus quidem maiores perspiciatis, illo maxime
                 voluptatem a itaque suscipit.</p>
             <div class="hero-buttons">
-                <a href="#" class="contact_btn">Contact Us</a>
-                <a href="#" class="about_btn">About Us</a>
+                <a href="#contact" class="contact_btn">Contact Us</a>
+                <a href="#about" class="about_btn">About Us</a>
             </div>
         </div>
-        <div class="hero-image">
+        <div class="hero-image" data-aos="zoom-in-left">
             <img src="assets/sopha.jpg" alt="Furniture Image">
         </div>
     </section>
-    <section class="product_section">
-        <div class="products">
+    <section id="ferniture" class="product_section">
+        <div class="products" data-aos="zoom-in">
             <h2>Our Furniture</h2>
             <p>
                 which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to
@@ -60,37 +61,37 @@
             </p>
         </div>
         <div class="product-grid">
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in-right" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/chair.jpg" alt="Brown Chair" />
                 <h3>Brown Chair Design</h3>
                 <p>$100.00</p>
                 <a href="#">Buy Now</a>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/bed.jpg" alt="Double Bed" />
                 <h3>Double Bed Design</h3>
                 <p>$200.00</p>
                 <a href="#">Buy Now</a>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-in-left" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/wood-table.png" alt="House Chair" />
                 <h3>House Chair Design</h3>
                 <p>$200.00</p>
                 <a href="#">Buy Now</a>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-out-right" data-aos-offset="300" data-aos-duration="500">
                 <img src="assets/chair.jpg" alt="Brown Chair" />
                 <h3>Brown Chair Design</h3>
                 <p>$100.00</p>
                 <a href="#">Buy Now</a>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-out" data-aos-offset="300" data-aos-duration="500">
                 <img src="assets/bed.jpg" alt="Double Bed" />
                 <h3>Double Bed Design</h3>
                 <p>$200.00</p>
                 <a href="#">Buy Now</a>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="zoom-out-left" data-aos-offset="300" data-aos-duration="500">>
                 <img src="assets/wood-table.png" alt="House Chair" />
                 <h3>House Chair Design</h3>
                 <p>$200.00</p>
@@ -98,11 +99,11 @@
             </div>
         </div>
     </section>
-    <section class="about">
-        <div class="hero-image">
+    <section id="about" class="about">
+        <div class="hero-image" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
             <img src="assets/about.png" alt="Furniture Image">
         </div>
-        <div class="hero-content">
+        <div class="hero-content" data-aos="fade-left" data-aos-offset="100" data-aos-duration="500">
             <h1>ABOUT US</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea iste distinctio sequi id tempora harum
                 veritatis delectus expedita amet quam magnam ipsa facilis, alias suscipit esse tenetur ab omnis
@@ -112,48 +113,48 @@
             </div>
         </div>
     </section>
-    <section class="product_section">
-        <div class="products">
+    <section id="blog" class="product_section">
+        <div class="products" data-aos="fade-right">
             <h2>Latest Blogs</h2>
 
         </div>
         <div class="product-grid">
-            <div class="product-blog">
+            <div class="product-blog" data-aos="zoom-in-right" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/chair.jpg" alt="Brown Chair" />
                 <h3>Brown Chair Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae mollitia a veniam
                     deserunt qui facilis saepe harum. Quis, eos?</p>
                 <a href="#">Read More</a>
             </div>
-            <div class="product-blog">
+            <div class="product-blog" data-aos="zoom-in" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/bed.jpg" alt="Double Bed" />
                 <h3>Double Bed Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae mollitia a veniam
                     deserunt qui facilis saepe harum. Quis, eos?</p>
                 <a href="#">Read More</a>
             </div>
-            <div class="product-blog">
+            <div class="product-blog" data-aos="zoom-in-left" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/wood-table.png" alt="House Chair" />
                 <h3>House Chair Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae mollitia a veniam
                     deserunt qui facilis saepe harum. Quis, eos?</p>
                 <a href="#">Read More</a>
             </div>
-            <div class="product-blog">
+            <div class="product-blog" data-aos="zoom-out-right" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/chair.jpg" alt="Brown Chair" />
                 <h3>Brown Chair Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae mollitia a veniam
                     deserunt qui facilis saepe harum. Quis, eos?</p>
                 <a href="#">Read More</a>
             </div>
-            <div class="product-blog">
+            <div class="product-blog" data-aos="zoom-out" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/bed.jpg" alt="Double Bed" />
                 <h3>Double Bed Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae mollitia a veniam
                     deserunt qui facilis saepe harum. Quis, eos?</p>
                 <a href="#">Read More</a>
             </div>
-            <div class="product-blog">
+            <div class="product-blog" data-aos="zoom-out-left" data-aos-offset="200" data-aos-duration="500">
                 <img src="assets/wood-table.png" alt="House Chair" />
                 <h3>House Chair Design</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt repudiandae mollitia a veniam
@@ -162,9 +163,9 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="contact">
         <div class="contact_container">
-            <div class="form-box">
+            <div class="form-box" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine">
                 <h2>CONTACT US</h2>
                 <input type="text" class="form-input" placeholder="Your Name" />
                 <input type="text" class="form-input" placeholder="Phone Number" />
@@ -173,7 +174,7 @@
                 <button class="send-btn">SEND</button>
             </div>
 
-            <div class="map-box">
+            <div class="map-box" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60502.96642110581!2d73.67601902265339!3d18.599476122588378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bbc048041bef%3A0xd0c9eb5ac3c3dee5!2sHinjawadi%2C%20Pune%2C%20Pimpri-Chinchwad%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1753898816930!5m2!1sen!2sin"></iframe>
             </div>
@@ -199,6 +200,17 @@
                     <a href="#">About</a>
                     <a href="#">Blog</a>
                 </div>
+                <div>
+                    <h4 style="text-align: center;">Instagram Feed</h4>
+                    <div class="img_container">
+                        <img src="./assets/chair.jpg" alt="chair">
+                        <img src="./assets/bed.jpg" alt="bed">
+                        <img src="./assets/sopha.jpg" alt="sopha">
+                        <img src="./assets/wood-table.png" alt="table">
+                        <img src="./assets/about.png" alt="about">
+                        <img src="./assets/chair.jpg" alt="chair">
+                    </div>
+                </div>
                 <div class="newsletter">
                     <h4>SIGN UP TO OUR NEWSLETTER</h4>
                     <div class="input_btn">
@@ -217,6 +229,10 @@
                 © 2025 All Rights Reserved by HTML Design
             </div>
         </footer>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
 </body>
 
 </html>

@@ -395,3 +395,15 @@ iframe {
     font-size: 14px;
     color: #aaa;
 }
+
+.img_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+
+.img_container img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
